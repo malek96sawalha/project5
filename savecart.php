@@ -3,9 +3,7 @@ include 'includes/head-vars.php';
 
 if (isset($_SESSION['loggedInStatus']) && $_SESSION['loggedInStatus'] == true) {
     $loggedInId = $_SESSION['loggedInUserData']['id'];
-    $array_product = $_SESSION['cart'];
-
-    // Loop through the cart array and insert items into the cart table if not already inserted
+    $array_product = $_SESSION['cart'];  
     foreach ($_SESSION['cart'] as $item) {
         echo $product_id = $item['productid'];
         echo $product_quantity = $item['quantity'];
