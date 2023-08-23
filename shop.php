@@ -517,7 +517,7 @@ $range = $_GET['range']??0;
                             $product_discount=$row['product_discount'];
                             $category_id=$row['category_id'];
 
-                    $fil="sales";
+                    
                             
                     ?>
 

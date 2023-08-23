@@ -5,6 +5,7 @@
 
     <?php include_once 'navbar.php'?>
 
+
     <div class="offcanvas-overlay"></div>
 
     <!-- Page Title/Header Start -->
@@ -14,10 +15,10 @@
                 <div class="col">
 
                     <div class="page-title">
-                        <h1 class="title">Order Tracking</h1>
+                        <h1 class="title">Login & Register</h1>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                            <li class="breadcrumb-item active">Order Tracking</li>
+                            <li class="breadcrumb-item active">Login & Register</li>
                         </ul>
                     </div>
 
@@ -27,33 +28,76 @@
     </div>
     <!-- Page Title/Header End -->
 
-    <!-- Order Tracking Section Start -->
+    <!-- Login & Register Section Start -->
     <div class="section section-padding">
         <div class="container">
-
-            <div class="order-tracking">
-                <p>To track your order please enter your Order ID in the box below and press the "Track" button. This was given to you on your receipt and in the confirmation email you should have received.</p>
-                <form action="#">
-                    <div class="row learts-mb-n30">
-                        <div class="col-12 learts-mb-30">
-                            <label for="orderID">Order ID</label>
-                            <input id="orderID" type="text" placeholder="Found in your order confirmation email.">
+            <div class="row g-0">
+                <div class="col-lg-6">
+                    <div class="user-login-register bg-light">
+                        <div class="login-register-title">
+                            <h2 class="title">Login</h2>
+                            <p class="desc">Great to have you back!</p>
                         </div>
-                        <div class="col-12 learts-mb-30">
-                            <label for="billingEmail">Billing email</label>
-                            <input id="billingEmail" type="text" placeholder="Email you used during checkout.">
-                        </div>
-                        <div class="col-12 text-center learts-mb-30">
-                            <button class="btn btn-dark btn-outline-hover-dark">Track</button>
+                        <div class="login-register-form">
+                            <form action="#">
+                                <div class="row learts-mb-n50">
+                                    <div class="col-12 learts-mb-50">
+                                        <input type="email" placeholder="Username or email address">
+                                    </div>
+                                    <div class="col-12 learts-mb-50">
+                                        <input type="password" placeholder="Password">
+                                    </div>
+                                    <div class="col-12 text-center learts-mb-50">
+                                        <button class="btn btn-dark btn-outline-hover-dark">login</button>
+                                    </div>
+                                    <div class="col-12 learts-mb-50">
+                                        <div class="row learts-mb-n20">
+                                            <div class="col-12 learts-mb-20">
+                                                <div class="form-check">
+                                                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                                                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 learts-mb-20">
+                                                <a href="lost-password.php" class="fw-400">Lost your password?</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="user-login-register">
+                        <div class="login-register-title">
+                            <h2 class="title">Register</h2>
+                            <p class="desc">If you don’t have an account, register now!</p>
+                        </div>
+                        <div class="login-register-form">
+                            <form action="#">
+                                <div class="row learts-mb-n50">
+                                    <div class="col-12 learts-mb-20">
+                                        <label for="registerEmail">Email address <abbr class="required">*</abbr></label>
+                                        <input type="email" id="registerEmail">
+                                    </div>
+                                    <div class="col-12 learts-mb-50">
+                                        <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy</p>
+                                    </div>
+                                    <div class="col-12 text-center learts-mb-50">
+                                        <button class="btn btn-dark btn-outline-hover-dark">Register</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
 
     </div>
-    <!-- Order Tracking Section End -->
+    <!-- Login & Register Section End -->
 
     <div class="footer2-section section section-padding">
         <div class="container">

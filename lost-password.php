@@ -5,19 +5,20 @@
 
     <?php include_once 'navbar.php'?>
 
+
     <div class="offcanvas-overlay"></div>
 
     <!-- Page Title/Header Start -->
-    <div class="page-title-section section" data-bg-image="https://htmldemo.net/learts/learts/assets/images/bg/page-title-1.webp">
+    <div class="page-title-section section" data-bg-image="https://htmldemo.net/learts/learts/assets/images/bg/page-title-1.webp ">
         <div class="container">
             <div class="row">
                 <div class="col">
 
                     <div class="page-title">
-                        <h1 class="title">Order Tracking</h1>
+                        <h1 class="title">Lost Password</h1>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                            <li class="breadcrumb-item active">Order Tracking</li>
+                            <li class="breadcrumb-item active">Lost Password</li>
                         </ul>
                     </div>
 
@@ -27,24 +28,20 @@
     </div>
     <!-- Page Title/Header End -->
 
-    <!-- Order Tracking Section Start -->
+    <!-- Lost Password Section Start -->
     <div class="section section-padding">
         <div class="container">
 
-            <div class="order-tracking">
-                <p>To track your order please enter your Order ID in the box below and press the "Track" button. This was given to you on your receipt and in the confirmation email you should have received.</p>
+            <div class="lost-password">
+                <p>Lost your password? Please enter your username or email address. You will receive a link to create a new password via email.</p>
                 <form action="#">
                     <div class="row learts-mb-n30">
                         <div class="col-12 learts-mb-30">
-                            <label for="orderID">Order ID</label>
-                            <input id="orderID" type="text" placeholder="Found in your order confirmation email.">
-                        </div>
-                        <div class="col-12 learts-mb-30">
-                            <label for="billingEmail">Billing email</label>
-                            <input id="billingEmail" type="text" placeholder="Email you used during checkout.">
+                            <label for="userName">Username or email</label>
+                            <input id="userName" type="text">
                         </div>
                         <div class="col-12 text-center learts-mb-30">
-                            <button class="btn btn-dark btn-outline-hover-dark">Track</button>
+                            <button class="btn btn-dark btn-outline-hover-dark">reset password</button>
                         </div>
                     </div>
                 </form>
@@ -53,7 +50,7 @@
         </div>
 
     </div>
-    <!-- Order Tracking Section End -->
+    <!-- Lost Password Section End -->
 
     <div class="footer2-section section section-padding">
         <div class="container">
